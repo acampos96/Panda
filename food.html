@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Panda Express: Our Food</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-2 col-sm-4 col-md-3 bg-dark text-center">
+          <a class=" text-center" href="index.html">
+            <img class="logo" src="https://logos-download.com/wp-content/uploads/2016/12/Panda_Express_logo_logotype.png" alt="">
+            <h3 class="text-light">Panda Express</h3>
+          </a>
+        </div>
+        <div class="col-md-9 col-sm-8 col-10 bg-danger">
+          <br><br>
+          <div class="row">
+            <div class="col-md-8">
+            <h1 class="align-middle text-light animated bounceInRight">Our Food</h1>
+            </div>
+            <div class="col-md-4">
+              <button type="button" class="btn btn-outline-dark float-right" data-toggle="modal" data-target="#exampleModal">
+                Contact Us
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row text-light">
+        <div class="col-2 col-sm-4 col-md-3 bg-danger">
+          <nav  id="nav" class="navbar navbar-dark">
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse show navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto h2">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link animated pulse infinite" href="food.html">Our Food</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="offers.html" >Our Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="locations.html" >Our Locations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html" >About Panda</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="overflow-y col-md-9 col-sm-8 col-10 bg-dark slideshow vso">
+          <div class="row " id="carousel">
+            <div class="col-md-12">
+              <div id="carouselExampleIndicators" class="carousel-fade carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100 foto" src="http://www.visiontimes.com/uploads/2015/02/kungpao-chicken-recipe.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 foto" src="https://images.video.snidigital.com/image/upload/w_1024,h_576,c_fit/prod/genius/sni1uss-aakamaihdnetScripps_-_Genius_Kitchen364512181218_4555086_Homemade_Orange_Chickenjpg.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 foto" src="https://d2abve4vv95fsr.cloudfront.net/NWwrRWQSiw5qtfJla-FxZtbNrHI=/1500x900/smart/com.postmates.img.prod.s3.amazonaws.com/2a3127af-06a5-4009-a689-07f51f501a43/orig.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 foto" src="https://dinnerthendessert.com/wp-content/uploads/2016/02/Panda-Express-Beef-and-Broccoli-3.jpg" alt="Fouth slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100 foto" src="https://speant.com/media/catalog/product/cache/1/image/1800x/040ec09b1e35df139433887a97daa66f/p/e/pe_beijing_beef_1.jpg" alt="Fifth slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+        </div>
+        <div class="row pad">
+            <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+              <a href="#orangeChicken" data-toggle="modal" >
+              <div class="card text-dark">
+                <div class="card-body food">
+                  <h5 class="card-title text-danger">Orange Chicken</h5>
+                  <p class="card-text">Our signature dish. Crispy chicken wok-tossed in a sweet and spicy orange sauce.</p>
+                </div>
+                <img class="card-img-bottom" src="https://iwashyoudry.com/wp-content/uploads/2016/03/Orange-Chicken-6-675x924.jpg" alt="Card image cap">
+              </div>
+            </a>
+            </div>
+          <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+            <a href="#kungPao" data-toggle="modal" >
+              <div class="card text-dark">
+                <div class="card-body food">
+                  <h5 class="card-title text-danger">Kung Pao Chicken</h5>
+                  <p class="card-text">A Szechwan-inspired dish with chicken, peanuts and vegetables, finished with chili peppers.</p>
+                </div>
+                <img class="card-img-bottom" src="https://cafedelites.com/wp-content/uploads/2018/04/Best-Kung-Pao-Chicken-IMAGE-2.jpg" alt="Card image cap">
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+            <a href="#teriyaki" data-toggle="modal" >
+              <div class="card text-dark">
+              <div class="card-body food">
+                <h5 class="card-title text-danger">Grilled Teriyaki Chicken</h5>
+                <p class="card-text">Grilled chicken thigh hand-sliced to order and served with teriyaki sauce.</p>
+              </div>
+              <img class="card-img-bottom" src="https://speant.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/p/e/pe_grilled_teriyaki_chicken_breast_2.jpg" alt="Card image cap">
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+          <a href="#broccoli" data-toggle="modal" >
+            <div class="card text-dark">
+              <div class="card-body food">
+                <h5 class="card-title text-danger">Broccoli Beef</h5>
+                <p class="card-text">Grilled chicken thigh hand-sliced to order and served with teriyaki sauce.</p>
+              </div>
+              <img class="card-img-bottom" src="https://www.tasteofhome.com/wp-content/uploads/2017/10/exps26478_SD153323D06_09_6b-1-696x696.jpg" alt="Card image cap">
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+          <a href="#bbeef" data-toggle="modal" >
+            <div class="card text-dark">
+              <div class="card-body food">
+                <h5 class="card-title text-danger">Beijing Beef</h5>
+                <p class="card-text">Crispy beef, bell peppers and onions in a sweet-tangy sauce.</p>
+              </div>
+              <img class="card-img-bottom" src="https://dinnerthendessert.com/wp-content/uploads/2017/02/Panda-Express-Beijing-Beef-4.jpg" alt="Card image cap">
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-12 col-12 col-md-6 col-lg-4 col-xl-4">
+          <a href="#shanghai" data-toggle="modal" >
+          <div class="card text-dark">
+            <div class="card-body food">
+              <h5 class="card-title text-danger">Shanghai Angus Beef</h5>
+              <p class="card-text">Angus steak wok-seared with fresh string beans, onions and mushrooms.</p>
+            </div>
+            <img class="card-img-bottom" src="https://dinnerthendessert.com/wp-content/uploads/2016/08/Panda-Express-Shanghai-Angus-Steak-4.jpg" alt="Card image cap">
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content  bg-dark text-light">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Name</label>
+                  <input type="text" class="form-control" id="inputPassword4" placeholder="Hector Campos">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Phone Number</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="+50377723179">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Message</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="What are your catering options?...">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label for="inputState">State</label>
+                  <select id="inputState" class="form-control">
+                    <option selected>La Libertad</option>
+                    <option>San Salvador</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Sent me a copy
+                  </label>
+                </div>
+              </div>
+              <button type="submit" onclick="send();" class="btn btn-secondary">Send</button>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="orangeChicken" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Orange Chicken</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://iwashyoudry.com/wp-content/uploads/2016/03/Orange-Chicken-6-675x924.jpg" alt="Orange Chicken">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="kungPao" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Kung Pao Chicken</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://cafedelites.com/wp-content/uploads/2018/04/Best-Kung-Pao-Chicken-IMAGE-2.jpg" alt="Grilled Teriyaki Chicken">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="teriyaki" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Grilled Teriyaki Chicken</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://speant.com/media/catalog/product/cache/1/image/600x600/9df78eab33525d08d6e5fb8d27136e95/p/e/pe_grilled_teriyaki_chicken_breast_2.jpg" alt="Kung Pao Chicken">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="broccoli" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Broccoli Beef</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://www.tasteofhome.com/wp-content/uploads/2017/10/exps26478_SD153323D06_09_6b-1-696x696.jpg" alt="Broccoli Beef">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="bbeef" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Beijing Beef</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://dinnerthendessert.com/wp-content/uploads/2017/02/Panda-Express-Beijing-Beef-4.jpg" alt="Beijing Beef">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="shanghai" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content text-danger">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Shanghai Andus Beef</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img width="470"src="https://dinnerthendessert.com/wp-content/uploads/2016/08/Panda-Express-Shanghai-Angus-Steak-4.jpg" alt="Shanghai Angus Beef">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function send() {
+          alert(swal("Great","Information sent successfully!", "success"));
+      }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

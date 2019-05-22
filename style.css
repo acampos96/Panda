@@ -1,0 +1,119 @@
+.slideshow{
+  padding: 0px;
+  height: 500px;
+}
+.vso{
+  overflow-x: hidden;
+  height: 500px;
+}
+.pic2{
+  max-height: 200px;
+  width: auto;
+}
+.pad{
+  padding: 15px;
+}
+#carousel{
+  padding-left:0px;
+}
+.logo{
+  max-width: 90px;
+}
+#fondo{
+  background-color: #B0413E;
+}
+.foto{
+  width: 100%;
+  height: 400px;
+}
+.card{
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: 0.75;
+}
+.card:hover{
+  opacity: 1.0;
+}
+.pic{
+  height: 225px;
+}
+#carousel{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+li{
+  margin-top: 15px;
+}
+/*https://r2---sn-hp57knsl.googlevideo.com/videoplayback?itag=22&expire=1551144155&sparams=dur,ei,expire,id,ip,ipbits,ipbypass,itag,lmt,mime,mip,mm,mn,ms,mv,pl,ratebypass,requiressl,source&id=o-AD0J3gXLhpfuW8yDmOts6CvgjlHJLFI1p_V3lZEsRt0z&ei=ekB0XJ6NN5KM1wL3zZnQCw&source=youtube&fvip=2&ip=37.48.124.32&key=cms1&ipbits=0&lmt=1540120434007456&signature=727A4237CEC07245AE868FDFFD20BD1011F7DC85.430E1EFB30371DFA15C90F6704EA22D9EA8B2DE0&mime=video%2Fmp4&requiressl=yes&pl=24&c=WEB&dur=184.714&txp=5531432&ratebypass=yes&rm=sn-aigely7l&req_id=a894ab694220a3ee&ipbypass=yes&mip=190.57.73.2&redirect_counter=2&cm2rm=sn-uxax4vopj5n8-n5al7l&cms_redirect=yes&mm=29&mn=sn-hp57knsl&ms=rdu&mt=1551122483&mv=m */
+header {
+  position: relative;
+  background-color: black;
+  height: 75vh;
+  min-height: 30rem;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 0px;
+}
+hr{
+  margin:5px;
+}
+.card-body .food{
+  height: 165px;
+}
+#panel{
+  height: 650px;
+}
+.card-img-bottom{
+  max-height: 220px;
+}
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  max-width: auto;
+  max-height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+.about{
+  width: inherit;
+}
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+  }
+  header video {
+    display: none;
+  }
+}
+a{
+  color:white;
+}
+a:hover{
+  color:#333333;
+  text-decoration: none;
+}
+ul{
+  list-style-type: none;
+}
